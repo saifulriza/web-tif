@@ -50,21 +50,21 @@ function insertCarouselDesktop() {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy d-block w-100" alt="...">
+      <img data-src="carousel.jpg" class="lazy d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy d-block w-100" alt="...">
+      <img data-src="carousel.jpg" class="lazy d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy d-block w-100" alt="...">
+      <img data-src="carousel.jpg" class="lazy d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -91,12 +91,12 @@ function insertCarouselMobile() {
   <div class="container carousel-mobile" id="carousel-mobile"> 
 
   <div class="row text-center no-gutters" data-aos="fade-up">
-  <div class="col-6 pr-1 pl-1"><img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="https://informatika.unimal.ac.id//dah_image/system/slider/543011333.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+  <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
   </div>
 </div> 
 </div>`;
@@ -278,7 +278,7 @@ function insertNewsMobile() {
   let news = `    <div class="row text-center mt-4 mb-5" id="news-mobile">
     <div class="col-12 " data-aos="fade-up">
       <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4" ><img
-          data-src="https://informatika.unimal.ac.id/dah_image/post/1873674328.jpg" class="lazy card-img-top"
+          data-src="news.jpg" class="lazy card-img-top"
           alt="...">
         <div class="card-body">
         <small>17 October 2019 | Umum, Kegiatan, Prestasi </small>
@@ -291,7 +291,7 @@ function insertNewsMobile() {
     </div>
     <div class="col-12">
       <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4 "><img
-          data-src="https://informatika.unimal.ac.id/dah_image/post/542358973.jpg" class="lazy card-img-top"
+          data-src="news.jpg" class="lazy card-img-top"
           alt="...">
         <div class="card-body">
         <small>13 September 2019 | Umum, Kegiatan,  </small>
@@ -406,7 +406,7 @@ function insertNewsDesktop() {
               <div class="date">
                   <div class="day">27</div>
                   <div class="month">Mar</div>
-              </div><img data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" class="lazy"/></div>
+              </div><img data-src="news.jpg" class="lazy"/></div>
           <!-- Post Content-->
           <div class="post-content">
               <div class="category">Photos</div>
@@ -426,7 +426,7 @@ function insertNewsDesktop() {
           <div class="date">
               <div class="day">27</div>
               <div class="month">Mar</div>
-          </div><img data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" class="lazy" /></div>
+          </div><img data-src="news.jpg" class="lazy" /></div>
       <!-- Post Content-->
       <div class="post-content">
           <div class="category">Photos</div>
@@ -446,7 +446,7 @@ function insertNewsDesktop() {
         <div class="date">
             <div class="day">27</div>
             <div class="month">Mar</div>
-        </div><img data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" class="lazy" /></div>
+        </div><img data-src="news.jpg" class="lazy" /></div>
     <!-- Post Content-->
     <div class="post-content">
         <div class="category">Photos</div>
@@ -466,7 +466,7 @@ function insertNewsDesktop() {
         <div class="date">
             <div class="day">27</div>
             <div class="month">Mar</div>
-        </div><img data-src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" class="lazy" /></div>
+        </div><img data-src="news.jpg" class="lazy" /></div>
     <!-- Post Content-->
     <div class="post-content">
         <div class="category">Photos</div>

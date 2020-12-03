@@ -221,28 +221,10 @@
   <script src="dist/js/type.conf.js"></script>
   <script src="assets/js/typed.min.js"></script>
   <script src="dist/js/custom.js"></script>
-  <!-- <script src="assets/js/jquery.scheletrone.js"></script> -->
+  <script src="script.js"></script>
+  <script src="sw.js"></script>
 
-  <script>
-    let rellax = new Rellax('.rellax');
-
-    let typed = new Typed('#typing', {
-      stringsElement: '#typed-strings',
-      showCursor: false,
-      startDelay: 0,
-      typeSpeed: 20,
-
-    });
-
-    AOS.init();
-
-    $(function () {
-      $('.carousel').carousel()
-      $('.lazy').lazy();
-      // $('#base-container-desktop').scheletrone();
-    });
-
-  </script>
+  <script src="dist/js/init.js"></script>
 </body>
 
 </html>
