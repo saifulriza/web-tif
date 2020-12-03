@@ -9,13 +9,13 @@ window.onload = () => {
         var serviceWorker;
         if (registration.installing) {
           serviceWorker = registration.installing;
-          console.log('installing');
+          // console.log('SW installing');
         } else if (registration.waiting) {
           serviceWorker = registration.waiting;
-          console.log('waiting');
+          // console.log('SW waiting');
         } else if (registration.active) {
           serviceWorker = registration.active;
-          console.log('active');
+          // console.log('SW active');
         }
         if (serviceWorker) {
           // logState(serviceWorker.state);

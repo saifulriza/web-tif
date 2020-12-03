@@ -588,9 +588,3 @@ function cekUrl() {
 }
 
 cekUrl();
-
-$(document).on('scroll', function () {
-  if ($(this).scrollTop() >= $('#container-2').position().top) {
-    console.log('I have been reached');
-  }
-});
