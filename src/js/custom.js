@@ -109,50 +109,50 @@ function insertMenuMobile() {
   
     <div class="row text-center mt-4 no-gutters" style="overflow-x: hidden" data-aos="fade-down">
     <div class="col-6">
-    <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Akademik</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Kemahasiswaan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 mr-0  m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 mr-0  m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Perpustakaan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Keuangan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Kepegawaian</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Beasiswa</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh">E-learning</div>
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh">E-learning</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Alumni</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     E-Quisioner</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Layanan Dan Pengaduan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Inventaris</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded" style="height:10vh"> 
+    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Kuliah Kerja Nyata</div>
     </div>
     </div>
@@ -377,7 +377,6 @@ function insertFooterDesktop() {
           
           Telp : +62.645.41373, Fax : +62.645.44450
           - informatika@unimal.ac.id
-          - defryhamdhana@unimal.ac.id
         </div>
         
       </div>
