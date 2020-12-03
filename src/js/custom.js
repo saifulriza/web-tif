@@ -91,12 +91,12 @@ function insertCarouselMobile() {
   <div class="container carousel-mobile" id="carousel-mobile"> 
 
   <div class="row text-center no-gutters" data-aos="fade-up">
-  <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="carousel.jpg" class="lazy card-img-top" height="100px" alt="Teknik Informatika"></div>
+  <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
   </div>
 </div> 
 </div>`;
@@ -278,7 +278,7 @@ function insertNewsMobile() {
   let news = `    <div class="row text-center mt-4 mb-5" id="news-mobile">
     <div class="col-12 " data-aos="fade-up">
       <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4" ><img
-          data-src="news.jpg" class="lazy card-img-top"
+          data-src="news.jpg" class="lazy card-img-top" height="100px" widht="200px"
           alt="...">
         <div class="card-body">
         <small>17 October 2019 | Umum, Kegiatan, Prestasi </small>
@@ -292,7 +292,7 @@ function insertNewsMobile() {
     <div class="col-12">
       <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4 "><img
           data-src="news.jpg" class="lazy card-img-top"
-          alt="...">
+          alt="..." height="100px" widht="200px">
         <div class="card-body">
         <small>13 September 2019 | Umum, Kegiatan,  </small>
         <hr/>
@@ -406,7 +406,7 @@ function insertNewsDesktop() {
               <div class="date">
                   <div class="day">27</div>
                   <div class="month">Mar</div>
-              </div><img data-src="news.jpg" class="lazy"/></div>
+              </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px"/></div>
           <!-- Post Content-->
           <div class="post-content">
               <div class="category">Photos</div>
@@ -426,7 +426,7 @@ function insertNewsDesktop() {
           <div class="date">
               <div class="day">27</div>
               <div class="month">Mar</div>
-          </div><img data-src="news.jpg" class="lazy" /></div>
+          </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px" /></div>
       <!-- Post Content-->
       <div class="post-content">
           <div class="category">Photos</div>
@@ -446,7 +446,7 @@ function insertNewsDesktop() {
         <div class="date">
             <div class="day">27</div>
             <div class="month">Mar</div>
-        </div><img data-src="news.jpg" class="lazy" /></div>
+        </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px"/></div>
     <!-- Post Content-->
     <div class="post-content">
         <div class="category">Photos</div>
@@ -466,7 +466,7 @@ function insertNewsDesktop() {
         <div class="date">
             <div class="day">27</div>
             <div class="month">Mar</div>
-        </div><img data-src="news.jpg" class="lazy" /></div>
+        </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px"/></div>
     <!-- Post Content-->
     <div class="post-content">
         <div class="category">Photos</div>
