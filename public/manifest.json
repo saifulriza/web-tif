@@ -2,11 +2,23 @@
   "name": "Informatika Unimal",
   "short_name": "TIF UNIMAL",
   "lang": "id-ID",
-  "start_url": "/index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#059979",
   "theme_color": "#086a6d",
   "icons": [
+    {
+      "src": "/assets/icons/android-icon-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/android-icon-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": "0.75"
+    },
     {
       "src": "/assets/icons/android-icon-36x36.png",
       "sizes": "36x36",
