@@ -91,12 +91,12 @@ function insertCarouselMobile() {
   <div class="container carousel-mobile" id="carousel-mobile"> 
 
   <div class="row text-center no-gutters" data-aos="fade-up">
-  <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
- <div class="col-6 pr-1 pl-1"><img data-src="/assets/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+  <div class="col-6 pr-1 pl-1"><img data-src="/assets/images/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/images/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/images/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/images/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/images/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
+ <div class="col-6 pr-1 pl-1"><img data-src="/assets/images/mobile/carousel/carousel.jpg" class="lazy card-img-top" height="100px" widht="127px" alt="Teknik Informatika"></div>
   </div>
 </div> 
 </div>`;
