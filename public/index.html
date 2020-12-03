@@ -1,27 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Web site created using create-snowpack-app" />
-    <link rel="stylesheet" type="text/css" href="/index.css" />
-    <title>Snowpack App</title>
-  </head>
-  <body>
-    <img id="img" src="/logo.svg" />
-    <canvas id="canvas"></canvas>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="module" src="/_dist_/index.js"></script>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<html lang="id">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<head>
+  <meta charset="utf-8" />
+  <!-- <link rel="icon" href="/assets/icons/favicon.ico" /> -->
+  <link rel="shortcut icon" href="logo.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#059979">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#059979">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Website Resmi Informatika Unimal menyajikan informasi terkini seputar teknologi, inovasi ataupun informasi di teknik informatika" />
+  <meta property="og:title" content="Website Resmi Teknik Informatika Unimal">
+  <meta property="og:site_name" content="Informatika Unimal">
+  <meta property="og:url" content="http://localhost:8080">
+  <meta property="og:description" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://localhost:8080/assets/images/og-preview.jpg">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/dist/css/custom.css" />
+  <link rel="stylesheet" type="text/css" href="/dist/css/mobile.css" media="only screen and (max-width: 990px)" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/aos.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    media="only screen and (max-width: 990px)"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="/assets/css/jquery.skeleton.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="/assets/css/highlight.min.css" /> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@600&display=swap" rel="stylesheet">
+  <title>Teknik Informatika | Universitas Malikussaleh</title>
+</head>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<body id="body">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <!-- <script src="script.js"></script> -->
+
+
+  <!-- <div id="el">
+    </div> -->
+  <div class="container-fluid" id="container-1">
+    <nav class="navbar navbar-expand-lg navbar-light d-sm-none d-md-block d-lg-block d-xl-block "
+      style=" position:fixed; float:top;z-index: 1;">
+
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+        <a class="navbar-brand font-weight-bold" href="#">Hidden brand</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 " style="color:#37517e">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Akademik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Galeri</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-md-12 ">
+        <div id="base-svg-desktop">
+        </div>
+        <div class="d-flex flex-column justify-content-sm-center align-items-center vh-100">
+          <div class="slogan">
+
+            <div class="row no-gutters pt-4">
+              <div class="col-auto">
+                <img src="logo.png" alt="" width="80px">
+              </div>
+              <div class="col">
+                <div class="card-block px-2">
+                  <div class="h1 text-white">Teknik Informatika</div>
+                  <div class="h3" style="color:#E3A413">Universitas Malikussaleh</div>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-5">
+              <div class="card p-4 text-white " style="background-color: #282B2E;" data-aos="fade-up">
+                <div id="typed-strings">
+                  <p>
+                    Hello!
+                  </p>
+                  <p>
+                    Teknik Informatika menghasilkan lulusan Yang unggul dan profesional dalam bidang Teknologi
+                    Informasi.
+                  </p>
+                </div>
+                <div id="typing">
+
+                </div>
+              </div>
+              <section id="btn-scroll-down">
+                <a href="#container-2" onclick="handleScrollDown()"><span></span></a>
+              </section>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid pl-0 pr-0 pb-0 vh-100 " id="container-2"
+    style="background-color: #eee; margin-top: 6rem !important;">
+    <div class=" col-12">
+
+      <div id="base-carousel-desktop" class="mt-5 d-flex flex-column justify-content-center align-items-center">
+      </div>
+
+      <div id="base-carousel-mobile">
+      </div>
+
+      <div id="base-menu-mobile">
+      </div>
+
+    </div>
+
+    <div id="base-menu-desktop">
+    </div>
+
+  </div>
+
+  <div id="base-wave">
+  </div>
+
+  <div class="container-fluid">
+    <div id="base-news-mobile" class=" ml-3 mr-3">
+    </div>
+    <div id="base-news-desktop">
+    </div>
+  </div>
+
+  <div id="base-footer-desktop">
+
+  </div>
+
+
+  </div>
+
+
+
+  <!-- back to top -->
+  <section id="btn-scroll-up">
+    <a href="#container-1" onclick="handleScrollUp()">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- Bottom Navbar -->
+  <nav class="navbar navbar-dark bg-info navbar-expand fixed-bottom d-md-block d-lg-none d-xl-none">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+            <path fill-rule="evenodd"
+              d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+          </svg>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><i class="fa fa-university"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><i class="fa fa-graduation-cap"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><i class="fa fa-support"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link"><i class="fa fa-picture-o"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+  <script type="text/javascript"
+    src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+  <script src="assets/js/rellax.min.js"></script>
+  <script src="assets/js/aos.min.js"></script>
+  <script src="dist/js/type.conf.js"></script>
+  <script src="assets/js/typed.min.js"></script>
+  <script src="dist/js/custom.js"></script>
+  <!-- <script src="assets/js/jquery.scheletrone.js"></script> -->
+
+  <script>
+    let rellax = new Rellax('.rellax');
+
+    let typed = new Typed('#typing', {
+      stringsElement: '#typed-strings',
+      showCursor: false,
+      startDelay: 0,
+      typeSpeed: 20,
+
+    });
+
+    AOS.init();
+
+    $(function () {
+      $('.carousel').carousel()
+      $('.lazy').lazy();
+      // $('#base-container-desktop').scheletrone();
+    });
+
+  </script>
+</body>
+
 </html>
