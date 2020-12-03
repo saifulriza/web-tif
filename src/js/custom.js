@@ -498,6 +498,7 @@ function insertSvgDesktop() {
 }
 
 if (screen && screen.width > 990) {
+  let rellax = new Rellax('.rellax');
   insertCarouselDesktop();
   insertWave();
   insertMenuDesktop();

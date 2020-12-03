@@ -1,5 +1,3 @@
-let rellax = new Rellax('.rellax');
-
 let typed = new Typed('#typing', {
   stringsElement: '#typed-strings',
   showCursor: false,
