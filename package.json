@@ -1,11 +1,12 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
+    "build": "snowpack build && npm run putar",
     "min": "purgecss --css src/css/bootstrap.css --content public/index.html src/custom.js --output public/assets/css",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\""
+    "lint": "prettier --check \"src/**/*.js\"",
+    "putar": "javascript-obfuscator ./build/dist/js --output ./build/dist/js --compact false --control-flow-flattening true --control-flow-flattening-threshold 1 --numbers-to-expressions true --simplify true --shuffle-string-array true --split-strings true --string-array-threshold 1"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "@snowpack/plugin-optimize": "^0.2.9",
+    "javascript-obfuscator": "^2.9.4",
     "postcss-cli": "^8.3.0",
     "prettier": "^2.0.5",
     "snowpack": "^2.17.1"
