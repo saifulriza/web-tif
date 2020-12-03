@@ -169,7 +169,7 @@ function insertMenuDesktop() {
     <div class="row" data-aos="fade-up">
       <div class="col-1 mr-0 ml-0 mt-1 mb-1 ">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -177,7 +177,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-0 ml-0 mt-1 mb-1 ">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -185,7 +185,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -193,7 +193,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -201,7 +201,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -209,7 +209,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -217,7 +217,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -225,7 +225,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -233,7 +233,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -241,7 +241,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
@@ -249,7 +249,7 @@ function insertMenuDesktop() {
       </div>
       <div class="col-1 mr-1 ml-1 mt-1 mb-1">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
-          <img data-src="httpss://placehold.it/100x100" class="lazy">
+          <img data-src="https://placehold.it/100x100" class="lazy">
           <div class="overlay">
             <span>Menu</span>
           </div>
