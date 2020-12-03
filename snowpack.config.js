@@ -5,7 +5,15 @@ module.exports = {
     src: '/dist',
   },
   plugins: [
-    /* ... */
+    [
+      '@snowpack/plugin-optimize',
+      {
+        minifyJS: true,
+        minifyCSS: true,
+        minifyHTML: true,
+        target: 'es2018',
+      },
+    ],
   ],
   install: [
     /* ... */
