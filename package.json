@@ -6,7 +6,7 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\"",
-    "putar": "javascript-obfuscator ./build/dist/js --output ./build/dist/js --compact false --control-flow-flattening true --control-flow-flattening-threshold 1 --numbers-to-expressions true --simplify true --shuffle-string-array true --split-strings true --string-array-threshold 1"
+    "putar": "javascript-obfuscator ./build/dist/js --output ./build/dist/js --compact false --control-flow-flattening true --control-flow-flattening-threshold 1 --numbers-to-expressions true --simplify true --shuffle-string-array true --split-strings true --string-array-threshold 1 --debug-protection true --disable-console-output true --debug-protection-interval true --self-defending true --domain-lock tif.netlify.app"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
