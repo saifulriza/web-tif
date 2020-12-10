@@ -24,3 +24,15 @@ $(function () {
   });
   // $('#base-container-desktop').scheletrone();
 });
+
+function menu() {
+  let nav = document.querySelector('.navigation');
+  let burger = document.querySelector('.hamburger');
+
+  burger.addEventListener('click', function (e) {
+    e.preventDefault();
+    nav.classList.toggle('active');
+  });
+}
+
+menu();
