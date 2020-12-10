@@ -41,8 +41,9 @@ function topFunction() {
 }
 function insertCarouselDesktop() {
   let carousel = `
-  <div class="col-8">
-  <div id="carousel-desktop" class="carousel slide mt-5" data-ride="carousel">
+  <div class="col-8" >
+  <div id="carousel-desktop">
+  <div id="carousel" class="carousel slide mt-5" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
     <li data-target="#carousel" data-slide-to="1"></li>
@@ -50,36 +51,37 @@ function insertCarouselDesktop() {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img data-src="/carousel.jpg" class="lazy d-block w-100" alt="...">
+      <img src="/carousel.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img data-src="/carousel.jpg" class="lazy d-block w-100" alt="...">
+      <img src="/carousel.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img data-src="/carousel.jpg" class="lazy d-block w-100" alt="...">
+      <img src="/carousel.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div>
 </div>`;
   let base = document.getElementById('base-carousel-desktop');
   base.insertAdjacentHTML('beforeend', carousel);
