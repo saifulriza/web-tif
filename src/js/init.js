@@ -13,6 +13,14 @@ $(function () {
   if (document.getElementsByClassName('rellax')) {
     let rellax = new Rellax('.rellax');
   }
-
+  $('#menu-btn-scroll-left').click(function (event) {
+    event.preventDefault();
+    $('#mwnu-desktop').animate(
+      {
+        scrollLeft: '+=300px',
+      },
+      'slow',
+    );
+  });
   // $('#base-container-desktop').scheletrone();
 });
