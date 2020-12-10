@@ -166,7 +166,13 @@ function insertMenuMobile() {
 }
 
 function insertMenuDesktop() {
-  let menu = `    <div class="col-12 d-flex flex-column justify-content-center align-items-center  mt-4" id="menu-desktop">
+  let menu = `  
+<div id="menu-desktop">
+<div class="col-12 mt-4 d-flex justify-content-center">
+<h2>APLIKASI TEKNIK INFORMATIKA UNIMAL</h2>
+</div>
+  <div class="col-12 d-flex justify-content-center  mt-3" >
+
     <div class="row" data-aos="fade-up">
       <div class="col-1 mr-0 ml-0 mt-1 mb-1 ">
         <div class="img-container" style="max-height: 100px; max-width: 250px;cursor:pointer">
@@ -256,7 +262,7 @@ function insertMenuDesktop() {
           </div>
         </div>
       </div>
-
+      </div>
     </div>
   </div>`;
   let base = document.getElementById('base-menu-desktop');
