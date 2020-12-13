@@ -668,7 +668,7 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Lifestyle</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Lifestyle</a>
 
                                      <!--title-->
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
@@ -693,7 +693,7 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Motocross</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Motocross</a>
                                      <!--title-->
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
@@ -717,7 +717,7 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Fitness</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Fitness</a>
                                      <!--title-->
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
@@ -741,7 +741,7 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adventure</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adventure</a>
                                      <!--title-->
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
