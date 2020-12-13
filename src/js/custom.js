@@ -39,6 +39,59 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function insertNavigationDesktop() {
+  let navigation = `        <nav class="navigation" id="navigation-desktop">
+<ul class="nav__list">
+    <li class="nav__item big_sq bg_green">
+        <a href="#" class="nav__link"><i class="fa fa-home" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item bg_yellow">
+        <a href="#" class="nav__link"><i class="fa fa-code" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item bg_red">
+        <a href="#" class="nav__link"><i class="fa fa-download" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item bg_blue">
+        <a href="#" class="nav__link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item vert_sq bg_green">
+        <a href="#" class="nav__link"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item bg_purple">
+        <a href="#" class="nav__link"><i class="fa fa-space-shuttle" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item bg_orange">
+        <a href="#" class="nav__link"><i class="fa fa-ship" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item big_sq bg_yellow">
+        <a href="#" class="nav__link"><i class="fa fa-unlock-alt" aria-hidden="true"></i></a>
+    </li>
+    <li class="nav__item bg_orange">
+        <a href="#" class="nav__link"><i class="fa fa-taxi" aria-hidden="true"></i></a>
+    </li>
+</ul>
+
+<div class="hamburger">
+    <div class="patty"></div>
+</div>
+<!-- <button class="btn btn-success hamburger">Menu</button> -->
+</nav>`;
+
+  let base = document.getElementById('base-navigation-desktop');
+  base.insertAdjacentHTML('beforeend', navigation);
+  function menu() {
+    let nav = document.querySelector('.navigation');
+    let burger = document.querySelector('.hamburger');
+
+    burger.addEventListener('click', function (e) {
+      e.preventDefault();
+      nav.classList.toggle('active');
+    });
+  }
+
+  menu();
+}
 function insertCarouselDesktop() {
   let carousel = `
   <div class="col-7" >
@@ -171,8 +224,8 @@ function insertMenuDesktop() {
 <div class="container-fluid">
 <div class="row d-flex justify-content-center " data-aos="fade-up">
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 <img src="/assets/images/desktop/Akademik.svg" alt="..." style="z-index:1"/>
@@ -182,8 +235,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -195,8 +248,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3 ">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4 ">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -207,8 +260,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -219,8 +272,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -231,8 +284,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -244,8 +297,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -258,8 +311,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -270,8 +323,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -282,8 +335,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -294,8 +347,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -306,8 +359,8 @@ function insertMenuDesktop() {
 </a>
 </div>
 
-<div class="col-1">
-<a href="#" class="menu wallet pt-3">
+<div class="col-xl-2 col-md-3">
+<a href="#" class="menu wallet pt-3 mb-4">
 <div class="overlay"></div>
 <div class="circle">
 
@@ -455,96 +508,258 @@ function insertFooterDesktop() {
 }
 
 function insertNewsDesktop() {
-  let news = `
-  <div class="container-fluid" id="news-desktop" data-aos="fade-up">
-  <div class="info">
-</div>
-<div class="row">
-  <div class="col-3 mb-4" >
-      <!-- Post-->
-      <div class="post-module">
-          <!-- Thumbnail-->
-          <div class="thumbnail">
-              <div class="date">
-                  <div class="day">27</div>
-                  <div class="month">Mar</div>
-              </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px"/></div>
-          <!-- Post Content-->
-          <div class="post-content">
-              <div class="category">Photos</div>
-              <h1 class="title">City Lights in New York</h1>
-              <h2 class="sub_title">The city that never sleeps.</h2>
-              <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-              <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
-          </div>
-      </div>
-  </div>
+  let news = `    <!--Start code-->
+  <div class="container" id="news-desktop">
+ <div class="row" >
+     <div class="col-12 pb-5">
+         <!--SECTION START-->
+         <section class="row">
+             <!--Start slider news-->
+             <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                 <div id="featured" class="carousel slide carousel" data-ride="carousel">
+                     <!--dots navigate-->
+                     <ol class="carousel-indicators top-indicator">
+                         <li data-target="#featured" data-slide-to="0" class="active"></li>
+                         <li data-target="#featured" data-slide-to="1"></li>
+                         <li data-target="#featured" data-slide-to="2"></li>
+                         <li data-target="#featured" data-slide-to="3"></li>
+                     </ol>
+                     
+                     <!--carousel inner-->
+                     <div class="carousel-inner">
+                         <!--Item slider-->
+                         <div class="carousel-item active">
+                             <div class="card border-0 rounded-0 text-light overflow zoom">
+                                 <div class="position-relative">
+                                     <!--thumbnail img-->
+                                     <div class="ratio_left-cover-1 image-wrapper">
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <img class="img-fluid w-100"
+                                                  src="https://bootstrap.news/source/img1.jpg"
+                                                  alt="Bootstrap news template">
+                                         </a>
+                                     </div>
+                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                         <!--title-->
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <h2 class="h3 post-title text-white my-1">Bootstrap 4 template news portal magazine perfect for news site</h2>
+                                         </a>
+                                         <!-- meta title -->
+                                         <div class="news-meta">
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-date">Oct 22, 2019</span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <!--Item slider-->
+                         <div class="carousel-item">
+                             <div class="card border-0 rounded-0 text-light overflow zoom">
+                                 <div class="position-relative">
+                                     <!--thumbnail img-->
+                                     <div class="ratio_left-cover-1 image-wrapper">
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <img class="img-fluid w-100"
+                                                  src="https://bootstrap.news/source/img2.jpg"
+                                                  alt="Bootstrap news theme">
+                                         </a>
+                                     </div>
+                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                         <!--title-->
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <h2 class="h3 post-title text-white my-1">Walmart shares up 10% on online sales lift</h2>
+                                         </a>
+                                         <!-- meta title -->
+                                         <div class="news-meta">
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-date">Oct 22, 2019</span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <!--Item slider-->
+                         <div class="carousel-item">
+                             <div class="card border-0 rounded-0 text-light overflow zoom">
+                                 <div class="position-relative">
+                                     <!--thumbnail img-->
+                                     <div class="ratio_left-cover-1 image-wrapper">
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <img class="img-fluid w-100"
+                                                  src="https://bootstrap.news/source/img3.jpg"
+                                                  alt="Bootstrap blog template">
+                                         </a>
+                                     </div>
+                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                         <!--title-->
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <h2 class="h3 post-title text-white my-1">Bank chief warns on Brexit staff moves to other company</h2>
+                                         </a>
+                                         <!-- meta title -->
+                                         <div class="news-meta">
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-date">Oct 22, 2019</span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <!--Item slider-->
+                         <div class="carousel-item">
+                             <div class="card border-0 rounded-0 text-light overflow zoom">
+                                 <div class="position-relative">
+                                     <!--thumbnail img-->
+                                     <div class="ratio_left-cover-1 image-wrapper">
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <img class="img-fluid w-100"
+                                                  src="https://bootstrap.news/source/img4.jpg"
+                                                  alt="Bootstrap portal template">
+                                         </a>
+                                     </div>
+                                     <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                         <!--title-->
+                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                             <h2 class="h3 post-title text-white my-1">The world's first floating farm making waves in Rotterdam</h2>
+                                         </a>
+                                         <!-- meta title -->
+                                         <div class="news-meta">
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-date">Oct 22, 2019</span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <!--end item slider-->
+                     </div>
+                     <!--end carousel inner-->
+                 </div>
+                 
+                 <!--navigation-->
+                 <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                 </a>
+                 <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                 </a>
+             </div>
+             <!--End slider news-->
+             
+             <!--Start box news-->
+             <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                 <div class="row">
+                     <!--news box-->
+                     <div class="col-6 pb-1 pt-0 pr-1">
+                         <div class="card border-0 rounded-0 text-white overflow zoom">
+                             <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_right-cover-2 image-wrapper">
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <img class="img-fluid"
+                                              src="https://bootstrap.news/source/img5.jpg"
+                                              alt="simple blog template bootstrap">
+                                     </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                     <!-- category -->
+                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Lifestyle</a>
 
-  <div class="col-3 mb-4" >
-  <!-- Post-->
-  <div class="post-module">
-      <!-- Thumbnail-->
-      <div class="thumbnail">
-          <div class="date">
-              <div class="day">27</div>
-              <div class="month">Mar</div>
-          </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px" /></div>
-      <!-- Post Content-->
-      <div class="post-content">
-          <div class="category">Photos</div>
-          <h1 class="title">City Lights in New York</h1>
-          <h2 class="sub_title">The city that never sleeps.</h2>
-          <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-          <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
-      </div>
-  </div>
-</div>
-
-<div class="col-3 mb-4" >
-<!-- Post-->
-<div class="post-module">
-    <!-- Thumbnail-->
-    <div class="thumbnail">
-        <div class="date">
-            <div class="day">27</div>
-            <div class="month">Mar</div>
-        </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px"/></div>
-    <!-- Post Content-->
-    <div class="post-content">
-        <div class="category">Photos</div>
-        <h1 class="title">City Lights in New York</h1>
-        <h2 class="sub_title">The city that never sleeps.</h2>
-        <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-        <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
-    </div>
-</div>
-</div>
-
-<div class="col-3 mb-4" >
-<!-- Post-->
-<div class="post-module">
-    <!-- Thumbnail-->
-    <div class="thumbnail">
-        <div class="date">
-            <div class="day">27</div>
-            <div class="month">Mar</div>
-        </div><img data-src="news.jpg" class="lazy" height="200px" widht="400px"/></div>
-    <!-- Post Content-->
-    <div class="post-content">
-        <div class="category">Photos</div>
-        <h1 class="title">City Lights in New York</h1>
-        <h2 class="sub_title">The city that never sleeps.</h2>
-        <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-        <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
-    </div>
-</div>
-</div>
-
-
-
-</div> 
-</div>
-`;
+                                     <!--title-->
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     
+                     <!--news box-->
+                     <div class="col-6 pb-1 pl-1 pt-0">
+                         <div class="card border-0 rounded-0 text-white overflow zoom">
+                             <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_right-cover-2 image-wrapper">
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <img class="img-fluid"
+                                              src="https://bootstrap.news/source/img6.jpg"
+                                              alt="bootstrap templates for blog">
+                                     </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                     <!-- category -->
+                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Motocross</a>
+                                     <!--title-->
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     
+                     <!--news box-->
+                     <div class="col-6 pb-1 pr-1 pt-1">
+                         <div class="card border-0 rounded-0 text-white overflow zoom">
+                             <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_right-cover-2 image-wrapper">
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <img class="img-fluid"
+                                              src="https://bootstrap.news/source/img7.jpg"
+                                              alt="bootstrap blog wordpress theme">
+                                     </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                     <!-- category -->
+                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Fitness</a>
+                                     <!--title-->
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     
+                     <!--news box-->
+                     <div class="col-6 pb-1 pl-1 pt-1">
+                         <div class="card border-0 rounded-0 text-white overflow zoom">
+                             <div class="position-relative">
+                                 <!--thumbnail img-->
+                                 <div class="ratio_right-cover-2 image-wrapper">
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <img class="img-fluid"
+                                              src="https://bootstrap.news/source/img8.jpg"
+                                              alt="blog website templates bootstrap">
+                                     </a>
+                                 </div>
+                                 <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+                                     <!-- category -->
+                                     <a class="p-1 badge badge-primary rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adventure</a>
+                                     <!--title-->
+                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                     </a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!--end news box-->
+                 </div>
+             </div>
+             <!--End box news-->
+         </section>
+         <!--END SECTION-->
+     </div>
+ </div>
+ </div>
+ <!--end code-->`;
   let base = document.getElementById('base-news-desktop');
   base.insertAdjacentHTML('beforeend', news);
 }
@@ -567,7 +782,9 @@ if (screen && screen.width > 990) {
   insertFooterDesktop();
   insertNewsDesktop();
   insertSvgDesktop();
+  insertNavigationDesktop();
 } else {
+  let navigationDesktop = document.getElementById('navigation-desktop');
   let carouselDesktop = document.getElementById('carousel-desktop');
   let wave = document.getElementById('wave');
   let menuDestop = document.getElementById('menu-desktop');
@@ -580,6 +797,7 @@ if (screen && screen.width > 990) {
   if (footerDesktop) footerDesktop.remove();
   if (newsDesktop) newsDesktop.remove();
   if (svgDesktop) svgDesktop.remove();
+  if (navigationDesktop) navigationDesktop.remove();
 
   insertCarouselMobile();
   insertMenuMobile();
@@ -589,6 +807,7 @@ if (screen && screen.width > 990) {
 $(window).resize(function () {
   //   let width = parseInt($('#width').text($(this).width()));
   // let height = parseInt($("#height").text($(this).height()));
+  let navigationDesktop = document.getElementById('navigation-desktop');
   let carouselDesktop = document.getElementById('carousel-desktop');
   let carouselMobile = document.getElementById('carousel-mobile');
   let menuMobile = document.getElementById('menu-mobile');
@@ -611,6 +830,7 @@ $(window).resize(function () {
         newsMobile.remove();
       }
     } else {
+      navigationDesktop.remove();
       carouselDesktop.remove();
       wave.remove();
       menuDestop.remove();
@@ -638,6 +858,7 @@ $(window).resize(function () {
       insertFooterDesktop();
       insertNewsDesktop();
       insertSvgDesktop();
+      insertNavigationDesktop();
     }
   }
 });
