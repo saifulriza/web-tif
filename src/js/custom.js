@@ -41,101 +41,328 @@ function topFunction() {
 }
 
 function insertNavigationDesktop() {
-  let navigation = `        <nav class="navigation" id="navigation-desktop">
-<ul class="nav__list">
-    <li class="nav__item big_sq bg_green">
-        <a href="#" class="nav__link"><i class="fa fa-home" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item bg_yellow">
-        <a href="#" class="nav__link"><i class="fa fa-code" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item bg_red">
-        <a href="#" class="nav__link"><i class="fa fa-download" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item bg_blue">
-        <a href="#" class="nav__link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item vert_sq bg_green">
-        <a href="#" class="nav__link"><i class="fa fa-thumb-tack" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item bg_purple">
-        <a href="#" class="nav__link"><i class="fa fa-space-shuttle" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item bg_orange">
-        <a href="#" class="nav__link"><i class="fa fa-ship" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item big_sq bg_yellow">
-        <a href="#" class="nav__link"><i class="fa fa-unlock-alt" aria-hidden="true"></i></a>
-    </li>
-    <li class="nav__item bg_orange">
-        <a href="#" class="nav__link"><i class="fa fa-taxi" aria-hidden="true"></i></a>
-    </li>
-</ul>
+  let navigation = `<nav class="navbar navbar-expand-lg navbar-dark" id="navigation-desktop" style="position: fixed;top: 3.5em;left: 0%" >
+  <a class="navbar-brand" href="#">Mega Dropdown</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<div class="hamburger">
-    <div class="patty"></div>
-</div>
-<!-- <button class="btn btn-success hamburger">Menu</button> -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Category</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category 1
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <span class="text-uppercase text-white">Category 1</span>
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <a href="">
+                  <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                </a>
+                <p class="text-white">Short image call to action</p>
+
+              </div>
+              <!-- /.col-md-4  -->
+            </div>
+          </div>
+          <!--  /.container  -->
+
+
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category 2
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <span class="text-uppercase text-white">Category 2</span>
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <a href="">
+                  <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                </a>
+                <p class="text-white">Short image call to action</p>
+
+              </div>
+              <!-- /.col-md-4  -->
+            </div>
+          </div>
+          <!--  /.container  -->
+
+
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category 3
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+               <span class="text-uppercase text-white">Category 3</span>
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+                <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link item</a>
+                </li>
+              </ul>
+              </div>
+              <!-- /.col-md-4  -->
+              <div class="col-md-4">
+
+                <a href="">
+                  <img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
+                </a>
+                <p class="text-white">Short image call to action</p>
+                
+              </div>
+              <!-- /.col-md-4  -->
+            </div>
+          </div>
+          <!--  /.container  -->
+
+
+        </div>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+
 </nav>`;
 
   let base = document.getElementById('base-navigation-desktop');
   base.insertAdjacentHTML('beforeend', navigation);
-  function menu() {
-    let nav = document.querySelector('.navigation');
-    let burger = document.querySelector('.hamburger');
+  $(document).ready(function () {
+    // executes when HTML-Document is loaded and DOM is ready
 
-    burger.addEventListener('click', function (e) {
-      e.preventDefault();
-      nav.classList.toggle('active');
+    // breakpoint and up
+    $(window).resize(function () {
+      if ($(window).width() >= 980) {
+        // when you hover a toggle show its dropdown menu
+        $('.navbar .dropdown-toggle').hover(function () {
+          $(this).parent().toggleClass('show');
+          $(this).parent().find('.dropdown-menu').toggleClass('show');
+        });
+
+        // hide the menu when the mouse leaves the dropdown
+        $('.navbar .dropdown-menu').mouseleave(function () {
+          $(this).removeClass('show');
+        });
+
+        // do something here
+      }
     });
-  }
 
-  menu();
+    // document ready
+  });
 }
 function insertCarouselDesktop() {
-  let carousel = `
-  <div class="col-7" >
-  <div id="carousel-desktop">
-  <div id="carousel" class="carousel slide mt-5" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel" data-slide-to="1"></li>
-    <li data-target="#carousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/carousel.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+  let carousel = ` <div class="col-7">
+    <div id="carousel-desktop">
+      <div id="carousel" class="carousel slide mt-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/carousel.jpg" class="d-block w-100" alt="..." />
+
+            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+              <!--title-->
+              <a
+                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/"
+              >
+                <h2 class="h3 post-title text-white my-1">
+                  Bootstrap 4 template news portal magazine perfect for news
+                  site
+                </h2>
+              </a>
+              <!-- meta title -->
+              <div class="news-meta">
+                <span class="news-author"
+                  >by
+                  <a
+                    class="text-white font-weight-bold"
+                    href="../category/author.html"
+                    >Jennifer</a
+                  ></span
+                >
+                <span class="news-date">Oct 22, 2019</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/carousel.jpg" class="d-block w-100" alt="..." />
+
+            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+              <!--title-->
+              <a
+                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/"
+              >
+                <h2 class="h3 post-title text-white my-1">
+                  Bootstrap 4 template news portal magazine perfect for news
+                  site
+                </h2>
+              </a>
+              <!-- meta title -->
+              <div class="news-meta">
+                <span class="news-author"
+                  >by
+                  <a
+                    class="text-white font-weight-bold"
+                    href="../category/author.html"
+                    >Jennifer</a
+                  ></span
+                >
+                <span class="news-date">Oct 22, 2019</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/carousel.jpg" class="d-block w-100" alt="..." />
+
+            <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
+              <!--title-->
+              <a
+                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/"
+              >
+                <h2 class="h3 post-title text-white my-1">
+                  Bootstrap 4 template news portal magazine perfect for news
+                  site
+                </h2>
+              </a>
+              <!-- meta title -->
+              <div class="news-meta">
+                <span class="news-author"
+                  >by
+                  <a
+                    class="text-white font-weight-bold"
+                    href="../category/author.html"
+                    >Jennifer</a
+                  ></span
+                >
+                <span class="news-date">Oct 22, 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+      <div></div>
     </div>
-    <div class="carousel-item">
-      <img src="/carousel.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="/carousel.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<div>
-</div>`;
+  </div>`;
   let base = document.getElementById('base-carousel-desktop');
   base.insertAdjacentHTML('beforeend', carousel);
 }
@@ -382,7 +609,7 @@ function insertWave() {
   let wave = `    
   <div class="custom-shape-divider-bottom-1606916478" id="wave">
     <svg data-name="Layer 1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" id="fill" class="shape-fill"></path>
     </svg>
 </div>
   `;
@@ -535,7 +762,7 @@ function insertNewsDesktop() {
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                              <img class="img-fluid w-100"
-                                                  src="https://bootstrap.news/source/img1.jpg"
+                                                  src="/news.jpg"
                                                   alt="Bootstrap news template">
                                          </a>
                                      </div>
@@ -562,7 +789,7 @@ function insertNewsDesktop() {
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                              <img class="img-fluid w-100"
-                                                  src="https://bootstrap.news/source/img2.jpg"
+                                                  src="/news.jpg"
                                                   alt="Bootstrap news theme">
                                          </a>
                                      </div>
@@ -589,7 +816,7 @@ function insertNewsDesktop() {
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                              <img class="img-fluid w-100"
-                                                  src="https://bootstrap.news/source/img3.jpg"
+                                                  src="/news.jpg"
                                                   alt="Bootstrap blog template">
                                          </a>
                                      </div>
@@ -616,7 +843,7 @@ function insertNewsDesktop() {
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                              <img class="img-fluid w-100"
-                                                  src="https://bootstrap.news/source/img4.jpg"
+                                                  src="/news.jpg"
                                                   alt="Bootstrap portal template">
                                          </a>
                                      </div>
@@ -662,7 +889,7 @@ function insertNewsDesktop() {
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <img class="img-fluid"
-                                              src="https://bootstrap.news/source/img5.jpg"
+                                              src="/news.jpg"
                                               alt="simple blog template bootstrap">
                                      </a>
                                  </div>
@@ -687,7 +914,7 @@ function insertNewsDesktop() {
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <img class="img-fluid"
-                                              src="https://bootstrap.news/source/img6.jpg"
+                                              src="/news.jpg"
                                               alt="bootstrap templates for blog">
                                      </a>
                                  </div>
@@ -711,7 +938,7 @@ function insertNewsDesktop() {
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <img class="img-fluid"
-                                              src="https://bootstrap.news/source/img7.jpg"
+                                              src="/news.jpg"
                                               alt="bootstrap blog wordpress theme">
                                      </a>
                                  </div>
@@ -735,7 +962,7 @@ function insertNewsDesktop() {
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
                                          <img class="img-fluid"
-                                              src="https://bootstrap.news/source/img8.jpg"
+                                              src="/news.jpg"
                                               alt="blog website templates bootstrap">
                                      </a>
                                  </div>
@@ -750,8 +977,8 @@ function insertNewsDesktop() {
                              </div>
                          </div>
                      </div>
-                     <!--end news box-->
-                 </div>
+                     <!--end news box-->                
+                    </div>
              </div>
              <!--End box news-->
          </section>

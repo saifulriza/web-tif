@@ -227,7 +227,6 @@ input#search::placeholder {
 .custom-shape-divider-bottom-1606916478 .shape-fill {
   fill: #eeeeee;
 }
-
 /** For mobile devices **/
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1606799791 svg {
@@ -582,6 +581,11 @@ footer .copyright span {
   box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease-out;
   text-decoration: none;
+  color: #4c5656;
+}
+.menu-dark {
+  background: #626262;
+  color: white;
 }
 
 .menu:hover {
@@ -616,7 +620,7 @@ footer .copyright span {
 
 .menu p {
   font-size: 17px;
-  color: #4c5656;
+
   margin-top: 30px;
   z-index: 1000;
   transition: color 0.3s ease-out;
@@ -689,203 +693,6 @@ nav {
   top: 1%;
 }
 
-nav.active {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.nav__list {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-}
-
-.nav__item {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  min-width: 20em;
-  margin: 0.5em;
-  position: relative;
-  min-height: 12.5em;
-  box-shadow: 0 8px 6px -6px black;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
-}
-
-.nav__item:hover {
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-.nav__link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.big_sq {
-  -webkit-box-flex: 2;
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-}
-
-@media screen and (max-width: 1100px) {
-  .nav__list {
-    font-size: 0.7em;
-    -webkit-flex-flow: column wrap;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-  }
-  .big_sq {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-  .nav__item {
-    min-height: 5em;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-}
-
-.fa {
-  font-size: 3em !important;
-}
-
-.bg_green {
-  background: #048f00;
-}
-
-.bg_yellow {
-  background: #d4cd2f;
-}
-
-.bg_red {
-  background: #ac143a;
-}
-
-.bg_blue {
-  background: #287fe9;
-}
-
-.bg_purple {
-  background: #a100a8;
-}
-
-.bg_orange {
-  background: #da522c;
-}
-
-.hamburger {
-  box-shadow: 0px 4px 18px -4px rgba(0, 0, 0, 0.46);
-  position: absolute;
-  z-index: 2;
-  bottom: -37px;
-  left: 50%;
-  height: 37px;
-  width: 66px;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
-  cursor: pointer;
-  background: #014051;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.patty {
-  position: relative;
-  width: 2.5em;
-  height: 2px;
-  background: #fff;
-  border-radius: 5px;
-  -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.patty:before,
-.patty:after {
-  content: '';
-  position: absolute;
-  width: 2.5em;
-  height: 2px;
-  background: #fff;
-  border-radius: 5px;
-}
-
-.patty:before {
-  top: -10px;
-}
-
-.patty:after {
-  top: 10px;
-}
-
-.patty,
-.patty:after,
-.patty:before {
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-#intro {
-  top: 0;
-  height: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .fa {
   font-size: 1em !important;
 }
@@ -927,4 +734,80 @@ ul {
 .zoom:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*='col'] {
+  margin-bottom: 1rem;
+}
+
+.navbar .dropdown-menu {
+  border: none;
+  background-color: #015137 !important;
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.25rem;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  }
+
+  .navbar .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    /*  height of nav-item  */
+    top: 45px;
+
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  /* shows the dropdown menu on hover */
+  .navbar .dropdown:hover .dropdown-menu,
+  .navbar .dropdown .dropdown-menu:hover {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+}
+.dark-mode {
+  background-color: black;
+  color: #575252 !important;
+}
+#switch {
+  border-radius: 50%;
+}
+
+.btn.light {
+  background: #eee;
+}
+
+.btn.dark {
+  background: #333;
+}
+
+.fa-moon {
+  color: #fff;
 }
