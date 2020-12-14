@@ -391,50 +391,50 @@ function insertMenuMobile() {
   
     <div class="row text-center mt-4 no-gutters" style="overflow-x: hidden" data-aos="fade-down">
     <div class="col-6">
-    <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 mr-0 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Akademik</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 mr-0 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Kemahasiswaan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 mr-0  m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 mr-0  m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Perpustakaan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Keuangan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Kepegawaian</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Beasiswa</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh">E-learning</div>
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh">E-learning</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Alumni</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     E-Quisioner</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Layanan Dan Pengaduan</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Inventaris</div>
     </div>
     <div class="col-6">
-    <div class="card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
+    <div  class="list-menu-mobile card shadow-sm p-2 m-1 bg-white rounded btn-ripple" style="height:10vh"> 
     Kuliah Kerja Nyata</div>
     </div>
     </div>
@@ -620,7 +620,7 @@ function insertWave() {
 function insertNewsMobile() {
   let news = `    <div class="row text-center mt-4 mb-5" id="news-mobile">
     <div class="col-12 " data-aos="fade-up">
-      <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4" ><img
+      <div class="list-news-mobile card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4" ><img
           data-src="news.jpg" class="lazy card-img-top" height="100px" widht="200px"
           alt="...">
         <div class="card-body">
@@ -633,7 +633,7 @@ function insertNewsMobile() {
       </div>
     </div>
     <div class="col-12">
-      <div class="card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4 "><img
+      <div class="list-news-mobile card shadow-sm p-2 mr-0 m-1 bg-white rounded mb-4 "><img
           data-src="news.jpg" class="lazy card-img-top"
           alt="..." height="100px" widht="200px">
         <div class="card-body">

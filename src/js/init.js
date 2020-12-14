@@ -20,11 +20,11 @@ $(function () {
     $('body').toggleClass('dark-mode');
     $('#fill').toggleClass('shape-fill');
     $('.menu').toggleClass('menu-dark');
+    $('.list-menu-mobile').toggleClass('menu-dark').removeClass('bg-white');
+    $('.list-news-mobile').toggleClass('menu-dark').removeClass('bg-white');
     $('#switch').toggleClass(function () {
       return $(this).is('.light, .dark') ? 'light dark' : 'light';
     });
-
-    $('.bg-white').css('background', '#575252');
   });
   // $('#base-container-desktop').scheletrone();
 });
