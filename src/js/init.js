@@ -26,5 +26,4 @@ $(function () {
       return $(this).is('.light, .dark') ? 'light dark' : 'light';
     });
   });
-  // $('#base-container-desktop').scheletrone();
 });
