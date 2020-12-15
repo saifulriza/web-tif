@@ -12,16 +12,16 @@ if ('function' === typeof importScripts) {
   importScripts(
     'https://storage.googleapis.com/workbox-cdn/releases/6.0.0/workbox-sw.js',
   );
-
-  const assetRoute = new workbox.routing.RegExpRoute({
-    regExp: new RegExp('^/*'),
-    handler: new workbox.runtimeCaching.CacheFirst(),
-  });
-
-  const router = new workbox.routing.Router();
-  //router.addFetchListener();
-  router.registerRoutes({ routes: [assetRoute] });
-  router.setDefaultHandler({
-    handler: new workbox.runtimeCaching.CacheFirst(),
-  });
 }
+
+const assetRoute = new workbox.routing.RegExpRoute({
+  regExp: new RegExp('^/*'),
+  handler: new workbox.runtimeCaching.CacheFirst(),
+});
+
+const router = new workbox.routing.Router();
+//router.addFetchListener();
+router.registerRoutes({ routes: [assetRoute] });
+router.setDefaultHandler({
+  handler: new workbox.runtimeCaching.CacheFirst(),
+});
