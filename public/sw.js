@@ -1,27 +1,91 @@
 if ('function' === typeof importScripts) {
-  // importScripts(
-  //   'https://unpkg.com/workbox-sw@0.0.2/build/importScripts/workbox-sw.dev.v0.0.2.js',
-  // );
+  /**
+Import the Workbox library from the Google CDN.
+It is possible to serve this locally should we want to remove the dependency on Google
+See here for more info: https://developers.google.com/web/tools/workbox/modules/workbox-sw
+**/
   importScripts(
-    'https://unpkg.com/workbox-runtime-caching@1.3.0/build/importScripts/workbox-runtime-caching.prod.v1.3.0.js',
+    'https://storage.googleapis.com/workbox-cdn/releases/3.3.1/workbox-sw.js',
   );
-  // importScripts(
-  //   'https://unpkg.com/workbox-routing@1.3.0/build/importScripts/workbox-sw.prod.v2.1.3.js',
-  // );
 
-  importScripts(
-    'https://storage.googleapis.com/workbox-cdn/releases/6.0.0/workbox-sw.js',
+  // SETTINGS
+  workbox.setConfig({
+    // set the local path is not using Google CDN
+    //modulePathPrefix: '/directory/to/workbox/'
+    // By default, workbox-sw will use the debug build for sites on localhost,
+    // but for any other origin it’ll use the production build. Force by setting to true.
+    // debug: true
+  });
+  // Force verbose logging even for the production
+  // workbox.core.setLogLevel(workbox.core.LOG_LEVELS.debug)
+
+  // Cache settings
+  workbox.core.setCacheNameDetails({
+    // set the default cache name prefix. each domain should be unique to stop clashes
+    // this is used for runtime and precaching only
+    prefix: 'tif-cache',
+  });
+
+  // Using cache first strategy since the JS files are fingerprinted and this
+  // filename will change once a new version is created
+  workbox.routing.registerRoute(
+    // match only with assets on the assets domain
+    new RegExp('https://dev-tif.netlify.app/.*.js$'),
+    workbox.strategies.cacheFirst({
+      cacheName: 'tif-js',
+      plugins: [
+        new workbox.expiration.Plugin({
+          // 28 days cache before expiration
+          maxAgeSeconds: 24 * 60 * 60 * 28,
+          // Opt-in to automatic cleanup whenever a quota errors occurs anywhere in Workbox
+          purgeOnQuotaError: true, // Opt-in to automatic cleanup.
+        }),
+      ],
+    }),
   );
+
+  // Using cache first strategy since the CSS files are fingerprinted and this
+  // filename will change once a new version is created
+  workbox.routing.registerRoute(
+    // match only with assets on the assets domain
+    new RegExp('https://dev-tif.netlify.app/.*.css$'),
+    workbox.strategies.cacheFirst({
+      cacheName: 'tif-css',
+      plugins: [
+        new workbox.expiration.Plugin({
+          // 28 days cache before expiration
+          maxAgeSeconds: 24 * 60 * 60 * 28,
+          // Opt-in to automatic cleanup whenever a quota errors occurs anywhere in Workbox
+          purgeOnQuotaError: true, // Opt-in to automatic cleanup.
+        }),
+      ],
+    }),
+  );
+
+  // Using cache first strategy since the WOFF2 files are fingerprinted and this
+  // filename will change once a new version is created
+  workbox.routing.registerRoute(
+    // match only with assets on the assets domain
+    new RegExp('./'),
+    workbox.strategies.cacheFirst({
+      cacheName: 'unimal-tif',
+      plugins: [
+        new workbox.expiration.Plugin({
+          // 28 days cache before expiration
+          maxAgeSeconds: 24 * 60 * 60 * 28,
+          // Opt-in to automatic cleanup whenever a quota errors occurs anywhere in Workbox
+          purgeOnQuotaError: true, // Opt-in to automatic cleanup.
+        }),
+      ],
+    }),
+  );
+
+  // If any precache rules are defined in the Workbox setup this is where they will be injected
+  workbox.precaching.precacheAndRoute([]);
+
+  // skip the 'worker in waiting' phase and activate immediately
+  workbox.skipWaiting();
+  // claim any clients that match the worker scope immediately. requests on these pages will
+  // now go via the service worker.
+  workbox.clientsClaim();
 }
-
-const assetRoute = new workbox.routing.RegExpRoute({
-  regExp: new RegExp('^/*'),
-  handler: new workbox.runtimeCaching.CacheFirst(),
-});
-
-const router = new workbox.routing.Router();
-//router.addFetchListener();
-router.registerRoutes({ routes: [assetRoute] });
-router.setDefaultHandler({
-  handler: new workbox.runtimeCaching.CacheFirst(),
-});
