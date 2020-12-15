@@ -448,7 +448,7 @@ function insertMenuDesktop() {
   let menu = `  
 <div id="menu-desktop" class="mb-4 mt-4">
 <div class="container-fluid">
-<div class="row d-flex justify-content-center " data-aos="fade-up">
+<div class="row d-flex justify-content-center ">
 
 <div class="col-xl-2 col-md-3">
 <a href="#" class="menu wallet pt-3 mb-4">
