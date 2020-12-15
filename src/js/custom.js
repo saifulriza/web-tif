@@ -42,7 +42,7 @@ function topFunction() {
 
 function insertNavigationDesktop() {
   let navigation = `<nav class="navbar navbar-expand-lg navbar-dark" id="navigation-desktop" style="position: fixed;top: 3.5em;left: 0%" >
-  <a class="navbar-brand" href="#">Mega Dropdown</a>
+  <a class="navbar-brand" href="#">Teknik Informatika</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -50,11 +50,11 @@ function insertNavigationDesktop() {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Category</a>
+        <a class="nav-link" href="#">Akademik</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Category 1
+          Profile
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -107,7 +107,7 @@ function insertNavigationDesktop() {
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Category 2
+          Home
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -115,7 +115,7 @@ function insertNavigationDesktop() {
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <span class="text-uppercase text-white">Category 2</span>
+                <span class="text-uppercase text-white">Layanan</span>
                 <ul class="nav flex-column">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Active</a>
@@ -160,7 +160,7 @@ function insertNavigationDesktop() {
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Category 3
+          Layanan
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -168,7 +168,7 @@ function insertNavigationDesktop() {
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-               <span class="text-uppercase text-white">Category 3</span>
+               <span class="text-uppercase text-white">Layanan</span>
                 <ul class="nav flex-column">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Active</a>
@@ -265,11 +265,10 @@ function insertCarouselDesktop() {
             <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
               <!--title-->
               <a
-                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/"
+                href="#news"
               >
                 <h2 class="h3 post-title text-white my-1">
-                  Bootstrap 4 template news portal magazine perfect for news
-                  site
+                 Teknik Informatika - Universitas Malikussaleh
                 </h2>
               </a>
               <!-- meta title -->
@@ -279,7 +278,7 @@ function insertCarouselDesktop() {
                   <a
                     class="text-white font-weight-bold"
                     href="../category/author.html"
-                    >Jennifer</a
+                    >Saiful Riza</a
                   ></span
                 >
                 <span class="news-date">Oct 22, 2019</span>
@@ -292,7 +291,7 @@ function insertCarouselDesktop() {
             <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
               <!--title-->
               <a
-                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/"
+                href="#news"
               >
                 <h2 class="h3 post-title text-white my-1">
                   Bootstrap 4 template news portal magazine perfect for news
@@ -306,7 +305,7 @@ function insertCarouselDesktop() {
                   <a
                     class="text-white font-weight-bold"
                     href="../category/author.html"
-                    >Jennifer</a
+                    >Saiful Riza</a
                   ></span
                 >
                 <span class="news-date">Oct 22, 2019</span>
@@ -319,7 +318,7 @@ function insertCarouselDesktop() {
             <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
               <!--title-->
               <a
-                href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/"
+                href="#news"
               >
                 <h2 class="h3 post-title text-white my-1">
                   Bootstrap 4 template news portal magazine perfect for news
@@ -333,7 +332,7 @@ function insertCarouselDesktop() {
                   <a
                     class="text-white font-weight-bold"
                     href="../category/author.html"
-                    >Jennifer</a
+                    >Saiful Riza</a
                   ></span
                 >
                 <span class="news-date">Oct 22, 2019</span>
@@ -659,14 +658,12 @@ function insertFooterDesktop() {
         <div class="col-lg-4 col-md-6">
           <h3 style="color:#E3A413">Site Map</h3>
           <ul class="list-unstyled three-column">
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Code</li>
-            <li>Design</li>
-            <li>Host</li>
-            <li>Contact</li>
-            <li>Company</li>
+            <li>HOME</li>
+            <li>PROFIL</li>
+            <li>AKADEMIK</li>
+            <li>LAYANAN</li>
+            <li>GALERI</li>
+            <li>HUBUNGI KAMI</li>
           </ul>
           <ul class="list-unstyled socila-list">
             <li><img data-src="https://placehold.it/48x48" alt="" class="lazy" /></li>
@@ -679,7 +676,7 @@ function insertFooterDesktop() {
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <h3 style="color:#E3A413">latest News</h3>
+          <h3 style="color:#E3A413">Berita Terkini</h3>
           <div class="media">
             <a href="#" class="pull-left">
               <img data-src="https://placehold.it/64x64" alt="" class="lazy media-object" />
@@ -736,11 +733,11 @@ function insertFooterDesktop() {
 
 function insertNewsDesktop() {
   let news = `    <!--Start code-->
-  <div class="container" id="news-desktop">
+  <div id="news-desktop">
  <div class="row" >
      <div class="col-12 pb-5">
          <!--SECTION START-->
-         <section class="row">
+         <div class="row">
              <!--Start slider news-->
              <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
                  <div id="featured" class="carousel slide carousel" data-ride="carousel">
@@ -760,7 +757,7 @@ function insertNewsDesktop() {
                                  <div class="position-relative">
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <a href="#news">
                                              <img class="img-fluid w-100"
                                                   src="/news.jpg"
                                                   alt="Bootstrap news template">
@@ -768,12 +765,12 @@ function insertNewsDesktop() {
                                      </div>
                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                          <!--title-->
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                             <h2 class="h3 post-title text-white my-1">Bootstrap 4 template news portal magazine perfect for news site</h2>
+                                         <a href="#news">
+                                             <h2 class="h3 post-title text-white my-1">Mengukir sejarah : Tim Teknik Informatika Menjuarai PRAKTEK CUP 2019 cabang Volly Putri</h2>
                                          </a>
                                          <!-- meta title -->
                                          <div class="news-meta">
-                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Saiful Riza</a></span>
                                              <span class="news-date">Oct 22, 2019</span>
                                          </div>
                                      </div>
@@ -787,7 +784,7 @@ function insertNewsDesktop() {
                                  <div class="position-relative">
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <a href="#news">
                                              <img class="img-fluid w-100"
                                                   src="/news.jpg"
                                                   alt="Bootstrap news theme">
@@ -795,12 +792,12 @@ function insertNewsDesktop() {
                                      </div>
                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                          <!--title-->
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                             <h2 class="h3 post-title text-white my-1">Walmart shares up 10% on online sales lift</h2>
+                                         <a href="#news">
+                                             <h2 class="h3 post-title text-white my-1">Kunjungan Industri Teknik Informatika Unimal ke PT. INALUM</h2>
                                          </a>
                                          <!-- meta title -->
                                          <div class="news-meta">
-                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Saiful Riza</a></span>
                                              <span class="news-date">Oct 22, 2019</span>
                                          </div>
                                      </div>
@@ -814,7 +811,7 @@ function insertNewsDesktop() {
                                  <div class="position-relative">
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <a href="#news">
                                              <img class="img-fluid w-100"
                                                   src="/news.jpg"
                                                   alt="Bootstrap blog template">
@@ -822,12 +819,12 @@ function insertNewsDesktop() {
                                      </div>
                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                          <!--title-->
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                             <h2 class="h3 post-title text-white my-1">Bank chief warns on Brexit staff moves to other company</h2>
+                                         <a href="#news">
+                                             <h2 class="h3 post-title text-white my-1">Teknik Informatika Ditargetkan ter-Akreditasi A Bersama 4 Prodi Lainnya</h2>
                                          </a>
                                          <!-- meta title -->
                                          <div class="news-meta">
-                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Saiful Riza</a></span>
                                              <span class="news-date">Oct 22, 2019</span>
                                          </div>
                                      </div>
@@ -841,7 +838,7 @@ function insertNewsDesktop() {
                                  <div class="position-relative">
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                         <a href="#news">
                                              <img class="img-fluid w-100"
                                                   src="/news.jpg"
                                                   alt="Bootstrap portal template">
@@ -849,12 +846,12 @@ function insertNewsDesktop() {
                                      </div>
                                      <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                          <!--title-->
-                                         <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                             <h2 class="h3 post-title text-white my-1">The world's first floating farm making waves in Rotterdam</h2>
+                                         <a href="#news">
+                                             <h2 class="h3 post-title text-white my-1">Teknik Informatika Ditargetkan ter-Akreditasi A Bersama 4 Prodi Lainnya</h2>
                                          </a>
                                          <!-- meta title -->
                                          <div class="news-meta">
-                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Jennifer</a></span>
+                                             <span class="news-author">by <a class="text-white font-weight-bold" href="../category/author.html">Saiful Riza</a></span>
                                              <span class="news-date">Oct 22, 2019</span>
                                          </div>
                                      </div>
@@ -887,7 +884,7 @@ function insertNewsDesktop() {
                              <div class="position-relative">
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                     <a href="#news">
                                          <img class="img-fluid"
                                               src="/news.jpg"
                                               alt="simple blog template bootstrap">
@@ -895,11 +892,11 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Lifestyle</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="#news">Umum</a>
 
                                      <!--title-->
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                         <h2 class="h5 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                     <a href="#news">
+                                         <h2 class="h5 text-white my-1">Teknik Informatika Ditargetkan ter-Akreditasi A Bersama 4 Prodi Lainnya</h2>
                                      </a>
                                  </div>
                              </div>
@@ -912,7 +909,7 @@ function insertNewsDesktop() {
                              <div class="position-relative">
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                     <a href="#news">
                                          <img class="img-fluid"
                                               src="/news.jpg"
                                               alt="bootstrap templates for blog">
@@ -920,10 +917,10 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Motocross</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="#news">Unimal</a>
                                      <!--title-->
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                         <h2 class="h5 text-white my-1">Three myths about Florida elections recount</h2>
+                                     <a href="#news">
+                                         <h2 class="h5 text-white my-1">Teknik Informatika Ditargetkan ter-Akreditasi A Bersama 4 Prodi Lainnya</h2>
                                      </a>
                                  </div>
                              </div>
@@ -936,7 +933,7 @@ function insertNewsDesktop() {
                              <div class="position-relative">
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                     <a href="#news">
                                          <img class="img-fluid"
                                               src="/news.jpg"
                                               alt="bootstrap blog wordpress theme">
@@ -944,10 +941,10 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Fitness</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="#news">Teknik</a>
                                      <!--title-->
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                         <h2 class="h5 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                     <a href="#news">
+                                         <h2 class="h5 text-white my-1">Teknik Informatika Ditargetkan ter-Akreditasi A Bersama 4 Prodi Lainnya</h2>
                                      </a>
                                  </div>
                              </div>
@@ -960,7 +957,7 @@ function insertNewsDesktop() {
                              <div class="position-relative">
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
+                                     <a href="#news">
                                          <img class="img-fluid"
                                               src="/news.jpg"
                                               alt="blog website templates bootstrap">
@@ -968,10 +965,10 @@ function insertNewsDesktop() {
                                  </div>
                                  <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow">
                                      <!-- category -->
-                                     <a class="p-1 badge badge-success rounded-0" href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">Adventure</a>
+                                     <a class="p-1 badge badge-success rounded-0" href="#news">Umum</a>
                                      <!--title-->
-                                     <a href="https://bootstrap.news/bootstrap-4-template-news-portal-magazine/">
-                                         <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                     <a href="#news">
+                                         <h2 class="h5 text-white my-1">Teknik Informatika Ditargetkan ter-Akreditasi A Bersama 4 Prodi Lainnya</h2>
                                      </a>
                                  </div>
                              </div>
@@ -981,11 +978,12 @@ function insertNewsDesktop() {
                     </div>
              </div>
              <!--End box news-->
-         </section>
+            </div>
          <!--END SECTION-->
      </div>
  </div>
  </div>
+ 
  <!--end code-->`;
   let base = document.getElementById('base-news-desktop');
   base.insertAdjacentHTML('beforeend', news);
