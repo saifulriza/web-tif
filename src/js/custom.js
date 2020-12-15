@@ -758,8 +758,8 @@ function insertNewsDesktop() {
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="#news">
-                                             <img class="img-fluid w-100"
-                                                  src="/news.jpg"
+                                             <img class="lazy img-fluid w-100"
+                                                  data-src="/news.jpg"
                                                   alt="Bootstrap news template">
                                          </a>
                                      </div>
@@ -785,8 +785,8 @@ function insertNewsDesktop() {
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="#news">
-                                             <img class="img-fluid w-100"
-                                                  src="/news.jpg"
+                                             <img class="lazy img-fluid w-100"
+                                                  data-src="/news.jpg"
                                                   alt="Bootstrap news theme">
                                          </a>
                                      </div>
@@ -812,8 +812,8 @@ function insertNewsDesktop() {
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="#news">
-                                             <img class="img-fluid w-100"
-                                                  src="/news.jpg"
+                                             <img class="lazy img-fluid w-100"
+                                                  data-src="/news.jpg"
                                                   alt="Bootstrap blog template">
                                          </a>
                                      </div>
@@ -839,8 +839,8 @@ function insertNewsDesktop() {
                                      <!--thumbnail img-->
                                      <div class="ratio_left-cover-1 image-wrapper">
                                          <a href="#news">
-                                             <img class="img-fluid w-100"
-                                                  src="/news.jpg"
+                                             <img class="lazy img-fluid w-100"
+                                                  data-src="/news.jpg"
                                                   alt="Bootstrap portal template">
                                          </a>
                                      </div>
@@ -885,8 +885,8 @@ function insertNewsDesktop() {
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="#news">
-                                         <img class="img-fluid"
-                                              src="/news.jpg"
+                                         <img class="lazy img-fluid"
+                                              data-src="/news.jpg"
                                               alt="simple blog template bootstrap">
                                      </a>
                                  </div>
@@ -910,8 +910,8 @@ function insertNewsDesktop() {
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="#news">
-                                         <img class="img-fluid"
-                                              src="/news.jpg"
+                                         <img class="lazy img-fluid"
+                                              data-src="/news.jpg"
                                               alt="bootstrap templates for blog">
                                      </a>
                                  </div>
@@ -934,8 +934,8 @@ function insertNewsDesktop() {
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="#news">
-                                         <img class="img-fluid"
-                                              src="/news.jpg"
+                                         <img class="lazy img-fluid"
+                                              data-src="/news.jpg"
                                               alt="bootstrap blog wordpress theme">
                                      </a>
                                  </div>
@@ -958,8 +958,8 @@ function insertNewsDesktop() {
                                  <!--thumbnail img-->
                                  <div class="ratio_right-cover-2 image-wrapper">
                                      <a href="#news">
-                                         <img class="img-fluid"
-                                              src="/news.jpg"
+                                         <img class="lazy img-fluid"
+                                              data-src="/news.jpg"
                                               alt="blog website templates bootstrap">
                                      </a>
                                  </div>
