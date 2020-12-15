@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
+    "build": "npm run min && snowpack build",
     "obfuscate": "snowpack build && npm run putar",
     "min": "purgecss --css src/css/bootstrap.css --content public/index.html src/custom.js --output public/assets/css",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
